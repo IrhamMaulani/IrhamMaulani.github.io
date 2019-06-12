@@ -8,7 +8,7 @@ document.getElementById('header').addEventListener('click', function () {
 $(".image").waypoint(function () {
     $(".txt-perkenalan").css('visibility', 'visible');
     $(".text-programmer-1").addClass("fadeInLeftBig delay-1s");
-    $(".container-media-tex").addClass("animated fadeInLeftBig delay-3s");
+    $(".container-media-text").addClass("animated fadeInLeftBig delay-3s");
     $(".container-about-text").addClass("animated bounceInDown delay-2s");
     /*   $("#txt-ket-programmer").addClass("animated bounceInDown delay-2s"); */
     $("#tada").addClass("fadeInRightBig delay-5s");
