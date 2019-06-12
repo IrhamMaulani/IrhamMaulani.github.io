@@ -1,0 +1,308 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch');
+
+body,
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    margin: 0;
+    position: relative;
+}
+
+
+
+a:hover {
+    color: inherit;
+}
+
+a {
+    color: inherit;
+}
+
+.head {
+    background-color: #f0abb7;
+    background-image: url("../background/texture_pink.svg");
+    height: 100%;
+    width: auto;
+
+}
+
+.active {
+    font-weight: bolder;
+    color: #957DAD !important;
+    transform: scale(1.1);
+}
+
+
+
+.nav-link {
+    font-size: 0.5em;
+}
+
+.head .navbar {
+    font-size: 4em;
+    font-family: 'Chakra Petch',
+        sans-serif;
+    letter-spacing: 5px;
+}
+
+@media screen and (max-width: 991px) {
+    .head .navbar {
+        font-size: 1.5em;
+
+    }
+}
+
+
+.head .navbar a {
+    color: #474973;
+    cursor: pointer;
+    border-bottom: #474973 0 solid;
+}
+
+.head .navbar a:hover {
+    color: #3F69AA !important;
+    border-bottom: #474973 2px solid;
+    animation-name: pulse;
+}
+
+.nav-menu {
+    font-size: 0.35em;
+    margin-left: 15px;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+
+}
+
+.head .container img {
+    width: 80%;
+    height: 0%;
+    margin: 20%;
+    background-size: cover;
+    transform: rotate(-3deg);
+}
+
+.txt-header {
+    color: white;
+    font-weight: bolder;
+    font-family: 'Amatic SC',
+        cursive !important;
+    letter-spacing: 15px;
+    font-size: 8vh;
+    position: absolute;
+    bottom: 49%;
+    right: 40%;
+    z-index: 1;
+}
+
+@media screen and (max-width: 991px) {
+    .head .container img {
+        width: 100%;
+    }
+
+    .txt-header {
+        font-size: 2em;
+        bottom: 45%;
+        left: 10%;
+    }
+}
+
+@media screen and (max-width: 763px) {
+    .head .container img {
+        margin: 50%;
+        width: 100%;
+    }
+
+    .image-container .txt-header {
+        font-size: 1em;
+        bottom: 45%;
+        left: 10%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .head {
+        height: auto;
+    }
+
+    .head .container img {
+        width: 100%;
+    }
+
+    .txt-header {
+        font-size: 10px;
+        bottom: 40%;
+        left: 10%;
+    }
+}
+
+.image-container {
+    position: relative;
+
+}
+
+h1,
+p {
+    margin: 0;
+}
+
+.body-perkenalan {
+    background-color: #95dccc;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+}
+
+.txt-perkenalan {
+    visibility: hidden;
+
+}
+
+.text-programmer-1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    letter-spacing: 15px;
+}
+
+
+
+.body-perkenalan p {
+    font-size: 2rem;
+
+}
+
+.body-project {
+    background-color: #A491D3;
+    background-image: url("../background/texture_pink.svg");
+    font-family: 'Press Start 2P',
+        cursive;
+    color: rgb(82, 54, 19);
+
+    font-weight: bolder;
+    height: 55em;
+    z-index: 0;
+
+}
+
+
+.body-tertarik {
+    background-color: #fbca61;
+    background-image: url("https://www.transparenttextures.com/patterns/fresh-snow.png");
+    font-family: 'Press Start 2P',
+        cursive;
+    color: rgb(82, 54, 19);
+
+    font-weight: bolder;
+    height: 55em;
+    z-index: 0;
+
+}
+
+.container-about-text {
+
+    background-color: #FF8366;
+    color: #F8EABD;
+    font-weight: bolder;
+}
+
+.container-media-text {
+
+    background-color: #F5DBCB;
+    color: #FF8366;
+    font-weight: bolder;
+}
+
+
+@media screen and (max-width: 1381px) {
+    .body-perkenalan p {
+
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .body-perkenalan p {
+
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 841px) {
+    .body-perkenalan p {
+
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .body-perkenalan p {
+
+        font-size: 0.7rem;
+    }
+}
+
+[class*="col-"] {
+    background-clip: padding-box;
+    border: 15px solid transparent;
+}
+
+.start {
+    font-family: 'Gochi Hand',
+        cursive;
+    font-size: 2em;
+    border: black 1px solid;
+    padding: 30px;
+
+}
+
+.txt-bagian {
+    margin-top: 10%;
+}
+
+.icon {
+    color: inherit;
+    transition: all .2s ease-in-out;
+}
+
+.icon:hover {
+    color: inherit;
+    transform: scale(1.1);
+}
+
+@media screen and (min-width: 320px) and (max-width: 424px) {
+    .icon {
+        font-size: 2.2em;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .icon {
+        font-size: 3em;
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+
+    @media screen and (min-width: 426px) and (max-width: 799px) {
+        .icon {
+            font-size: 6em;
+        }
+    }
+
+    @media screen and (min-width: 1024px) {
+        .icon {
+            font-size: 4.5em;
+            margin-left: 15px;
+        }
+
+        @media screen and (min-width: 1025px) {
+            .icon {
+                font-size: 5.5em;
+                margin-left: 55px;
+            }
+        }

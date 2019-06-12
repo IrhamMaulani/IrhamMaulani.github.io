@@ -1,176 +1,148 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Irham Maulani</title>
-        
-        <link rel="stylesheet" href="resource/css/font-awesome.css">
-        <link rel="stylesheet" href="resource/css/style.css">
-        <link href='https://fonts.googleapis.com/css?family=Varela Round' rel='stylesheet'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="src/css/animate.css">
+        <link rel="stylesheet" href="src/css/irham.css">
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Press+Start+2P" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+        <link rel="stylesheet" href="src/css/button.css ">
 </head>
 
 <body>
-        <div class="navbar">
-                <ul>
-                        <li class="navbar-kiri"><a href="#hello">Hello,Irham!</a></li>
-                        <li><a href="#kontak-saya">Kontak Irham </a></li>
-                        <li><a href="#proyek">Proyek </a></li>
-                        <li><a href="#skill-saya">Skill </a></li>
-                        <li><a href="#perkenalan">Tentang </a></li>
-                </ul>
-        </div>
+        <div class="container-fluid head" id="head">
+                <nav class="navbar navbar-expand-lg  fixed-top">
+                        <a class="nav-link animated" id="header" href="#head">Irham Maulani</a>
+                        <button class="navbar-toggler navbar-light" data-target=" #my-nav" data-toggle="collapse">
+                                <span class="navbar-toggler-icon "></span>
+                        </button>
+                        <div id="my-nav" class="collapse navbar-collapse ">
+                                <ul class="navbar-nav ml-auto">
+                                        <li class="nav-item ">
+                                                <a class="nav-link nav-menu animated" id="navbar-body "
+                                                        href="#body-perkenalan">About</a>
+                                        </li>
 
-        <div class="header-gambar" id="hello">
-                <div class="tulisan-tengah">
-                        <h1>Hallo,Nama Saya</h1>
-                        <h1 class="nama">Irham Maulani</h1>
-                        <i class="fas fa-dove fa-2x terbang"></i>
-                </div>
-        </div>
+                                        <li class="nav-item ">
+                                                <a class="nav-link nav-menu animated" id="navbar-body "
+                                                        href="#body-project">Project</a>
+                                        </li>
 
-        <div id="perkenalan" class="perkenalan">
-                <h1 class="siapa">Siapa Irham?</h1>
-
-                <div class="deskripsi">
-                        <p>Seorang Code Monkey yang jago menyalin kode di stackoverflow</p>
-                        <p>Sedang belajar untuk menjadi Web Developer</p>
-                        <p>walau sering terhanyut di Android Studio</p>
-                        <p>Stalk Aktivitas saya di dunia pemrograman dengan media dibawah ini</p>
-                </div>
-                <div class="sosial">
-                        <ul>
-                                <li><a href="https://stackoverflow.com/users/10535317/irham-maulani" target="_blank"> <i
-                                                        class="fab fa-stack-overflow fa-3x icon"></i></a></li>
-                                <li><a href="https://github.com/IrhamMaulani" target="_blank"> <i class="fab fa-github fa-3x icon"></i></a></li>
-                                <li><a href="https://www.youtube.com/channel/UC67igIUeEEpYWl4j4oz7PSg" target="_blank"> <i
-                                                        class="fab fa-youtube fa-3x icon"></i></a></li>
-                                <li><a href="https://medium.com/@irhammaulani" target="_blank"> <i class="fab fa-medium fa-3x icon"></i></a></li>
-                                <li><a href="https://dribbble.com/IrhamMaulani" target="_blank"> <i class="fab fa-dribbble-square fa-3x icon"></i></a></li>
-                        </ul>
-                </div>
-        </div>
-        <div id="skill-saya" class="skill-saya">
-
-                <h1>Teknologi Yang Saya Gunakan</h1>
-
-                <div class="bar-skill">
-                        <p>HTML & CSS</p>
-                        <div class="container">
-                                <div class="skills html">20%</div>
+                                        <li class="nav-item ">
+                                                <a class="nav-link nav-menu animated" id="navbar-body "
+                                                        href="#">Contact</a>
+                                        </li>
+                                </ul>
                         </div>
-
-                        <p>JavaScript</p>
-                        <div class="container">
-                                <div class="skills js">50%</div>
-                        </div>
-
-                        <p>PHP</p>
-                        <div class="container">
-                                <div class="skills php">65%</div>
-                        </div>
-
-                        <p>Android Java</p>
-                        <div class="container">
-                                <div class="skills java">40%</div>
-                        </div>
-
-                        <p>Git</p>
-                        <div class="container">
-                                <div class="skills git">40%</div>
-                        </div>
-                        <p>Nge-Google</p>
-                        <div class="container">
-                                <div class="skills google">80%</div>
+                </nav>
+                <div class="container image-container">
+                        <div class=" d-flex justify-content-center image">
+                                <img class="img-header" id="image-header" src="src/img/img_6891.jpg">
+                                <!-- <div class="img-header"></div> -->
+                                <span class="txt-header">Irham Maulani 101</span>
                         </div>
                 </div>
-
         </div>
-        <div id="proyek" class="proyek">
+        <div id="body-perkenalan" class="body-perkenalan container-fluid pb-5">
+                <div class="d-flex justify-content-center">
+                        <h1 class="animated text-programmer-1 m-5 txt-perkenalan">WHO IRHAM ?</h1>
+                </div>
+                <div class="row ">
+                        <div class="col-lg-6 col-sm-12 mt-5 container-about-text">
+                                <p class="m-5 text-about justify-content-center align-items-center"
+                                        id="txt-ket-programmer">Software Developer Who Like To Learn
+                                        Something
+                                        New And Share Knowledge To Other.
+                                        <br>
+                                        <!-- Skilled In Javascript For Web Front-End, PHP For Back-End, Java For
+                                        Native Android, And C# For Destkop Development. -->
+                                        <br>
+                                        Always Welcome To Try New Technology, Concept, Framework And Implement It To
+                                        Project.
+                                        <br>
+                                        <br>
+                                        Right Now Irham Trying His Best To Use Best Practice For His Code And Make Sure
+                                        His Code Well Structured
 
-                <h1>Proyek Yang Pernah Saya Kerjakan</h1>
+                                </p>
+                        </div>
+                        <div class="col-lg-6 col-sm-12 mb-5 container-media-text">
+                                <p class="m-5 text-about justify-content-center align-items-center"
+                                        id="txt-ket-programmer">
+                                        Skilled In Javascript For Web Front-End, PHP For Back-End, Java For
+                                        Native Android, And C# For Destkop Development.
 
-                <div class="container-foto">
+                                        <br><br>
+                                        Watch My Adventure In Tech World
 
-                        <div class="kotak-foto">
-                                <a href="https://github.com/IrhamMaulani/Aplikasi-Komputer-Online" target="_blank">
-                                        <img class="foto-android" src="resource/image/portfolio/android-komputergo.jpg" alt="" srcset="">
-                                </a>
-                                <div class="keterangan-proyek">
-                                        <p >Komputer Go Merupakan Aplikasi berbasis mobile.Menggunakan konsep e-commerce dimana
-                                                pengguna dapat memesan jasa perbaikan laptop,dan penjual jasa dapat memperbaiki
-                                                laptop tanpa bertatap secara langsung
-                                        </p>
+
+                                </p>
+                                <div class="row">
+                                        <div class="col"><a href="https://github.com/IrhamMaulani" target="_blank"><i
+                                                                class="fab fa-github icon"></i></a></div>
+                                        <div class="col"><a
+                                                        href="https://www.youtube.com/channel/UC67igIUeEEpYWl4j4oz7PSg"
+                                                        target="_blank"> <i class="fab fa-youtube icon"></i></a> </div>
+                                        <div class="col"><a href="https://medium.com/@irhammaulani" target="_blank">
+                                                        <i class="fab fa-medium icon"></i></a></div>
+                                        <div class="col">
+                                                <a href="https://dribbble.com/IrhamMaulani" target="_blank"> <i
+                                                                class="fab fa-dribbble-square icon"></a></i>
+                                        </div>
+
                                 </div>
-                        </div>
 
-                        <div class="kotak-foto">
-                                        <a href="https://github.com/IrhamMaulani/SistemInformasi-pergudangan" target="_blank">
-                                <img class="foto-sixmart foto" src="resource/image/portfolio/SixMart.png" alt="" srcset="">
-                                </a>   
-                                
-                                <div class="keterangan-proyek">
-                                        <p>Sistem Informasi pergudangan untuk minimarket ini berbasis Web yang menggunakan PHP pure tanpa
-                                        Framework.<br><br><br>
-                                        </p>
-                                </div>
-                        </div>
-                        <div class="kotak-foto">
-                                        <a href="https://github.com/IrhamMaulani/proyek_magang" target="_blank">
-                                <img class="foto-sixmart foto" src="resource/image/portfolio/Antrian.png" alt="" srcset="">
-                                </a>  
-                                <div class="keterangan-proyek">
-                                        <p>Sistem Antrian dan juga sekaligus sebagai sistem yang menyimpan data pasien dan riwayat pasien
-                                        dengan reload yang minim (input data menggunakan Ajax).Proyek Magang yang saya kerjakan 
-                                        menggunakan Laravel sebagai back-end dan Jquery sebagai Front-end
-                                        </p> 
-                                </div>
-                        </div>
-                        <div class="kotak-foto">
-                                        <a href="https://github.com/IrhamMaulani/Web-design" target="_blank">
-                                <img class="foto-sixmart foto" src="resource/image/portfolio/portfolio-web-tanpa-css.png" alt="" srcset="">
-                                </a>
-                                <div class="keterangan-proyek">
-                                                <p>Web Portfolio statis yang menggunakan pure css,font awesome dan html
-                                                tanpa sedikitpun css framework dan javascript dalam pembuatannya<br><br><br>
-                                                </p>
-                                </div>
-                        </div>
-                                
-                        </div>
 
+                        </div>
+                        <div id="penanda "></div>
+                </div>
+        </div>
+        <div id="body-project" class="body-project container-fluid ">
+
+                <div class="container pt-5">
+                        <div class="row d-flex justify-content-center">
+                                <div class="col-4 text-center">a</div>
+                                <div class="col-4 text-center">b</div>
+                                <div class="col-4 text-center">c</div>
+                        </div>
                 </div>
 
 
 
         </div>
 
-        <div class="kontak-saya" id="kontak-saya">
-                <h1>Contact Me</h1>
-                <p>Saya seorang mahasiswa di kota <a href="https://goo.gl/maps/t1VwyuJTw9R2" target="_blank">Banjarmasin</a>,saya
-                terbuka untuk pekerjaan remote baik web-based maupun mobile-based Android</p>
-
-                <div class="sosial kontak-link">
-                                <ul>
-                                                <li><a href="mailto:someone@example.com" target="_blank">
-                                                <i class="far fa-envelope fa-3x ikon-hitam"></i></a></li>
-                                                <li><a href="https://www.linkedin.com/in/irham-maulani-5a45a6158/" target="_blank"> 
-                                                        <i class="fab fa-linkedin fa-3x ikon-hitam"></i></a></li>
-                                                <li><a href="https://twitter.com/IrhamMaulani" target="_blank"> <i
-                                                                        class="fab fa-twitter-square fa-3x ikon-hitam"></i></a></li>
-                                                <li><a href="https://www.facebook.com/atap.dunia.5" target="_blank">
-                                                         <i class="fab fa-facebook fa-3x ikon-hitam"></i></a></li>
-                                        </ul>
+        <div id="body-tertarik" class="body-tertarik container-fluid ">
+                <div class=" d-flex justify-content-center">
+                        <!-- <h2 class=" mb-5 txt-bagian">TERTARIK JADI BAGIAN DARI PROGRAMMER?</h2> -->
+                </div>
+                <div class=" d-flex justify-content-center mb-5">
+                        <p id="text-tertarik">Tertarik Masuk Ke Profesi Yang Menuntutmu Untuk Belajar Seumur Hidup?</p>
+                </div>
+                <div class=" d-flex justify-content-center ">
+                        <p id="txt-ready">Tekan Tombol Untuk Memulai</p>
+                </div>
+                <div class="container">
+                        <div class="switch demo4">
+                                <input type="checkbox" onchange='handleChange(this);'>
+                                <label><i class="fas fa-power-off"></i></label>
+                        </div>
                 </div>
         </div>
-
-
-
-
-
-
 </body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+</script>
+<script src="src/js/jquery.waypoints.min.js"></script>
+<script src="src/js/irham.js"></script>
 
 </html>
